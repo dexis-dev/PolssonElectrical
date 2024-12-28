@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polsson Electrical - fill out an application</title>
+</head>
+<body>
+
+    <!--Menu-->
+    <header class="header">
+        <div class="container header__container">
+            <button class="header__burger-btn" id="burger">
+                <span></span><span></span><span></span>
+            </button>
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="">                       
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link col" href="index.html#services">Services</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html#about">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html#faq">FAQ</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html#contact">Contact</a></li>
+                    <a href="#book">
+                        <button class="menu_btn">BOOK NOW</button>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="menu_2_header">
+        <a class="menu_call" href="">
+            Call 0435 912 031
+        </a>
+    </div>
+    <!--End-->
+
+    <form action="send.php" method="post">
+        <div class="form_container" id="book">
+            <div class="form_box">
+                <p class="services_p" id="faq">
+                    Fill out the <span>application</span>
+                </p>
+                <div class="input_container">
+                    <p class="input_title">
+                        Name
+                    </p>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </div>
+                <div class="input_container">
+                    <p class="input_title">
+                        Surname
+                    </p>
+                    <input type="text" name="surname" placeholder="Your surname" required>
+                </div>
+                <div class="input_container">
+                    <p class="input_title">
+                        Address
+                    </p>
+                    <input type="text" name="address" placeholder="Your Address" required>
+                </div>
+                <div class="input_container">
+                    <p class="input_title">
+                        Number
+                    </p>
+                    <input type="text" name="number" placeholder="Your Number" required>
+                </div>
+                <div class="input_container">
+                    <p class="input_title">
+                        Ready ?
+                    </p>
+                    <button type="submit" class="input_btn">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+
+
+    <!--footer-->
+    <footer class="footer_header">
+        <div class="footer_container">
+            <div class="footer_box">
+                <img src="img/logo.svg" alt="Logo" class="footer_logo">
+            </div>
+            <div class="footer_box">
+                <p class="footer_copy">
+                    &copy; 2015 - 2024 All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>    
+    <!--end-->
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
